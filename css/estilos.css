@@ -50,8 +50,9 @@
 		.btn{
 			display: inline-block;
 			padding: 0.5rem;
-			background: #C0B31C;
+			background: blue;
 			color: black;
+			border:2px solid #D4C31C;
 			border-radius: 5px;
 			text-decoration: none;
 			transition: 0.3s;
@@ -64,4 +65,12 @@
 		h3{
 			text-transform: uppercase;
 			letter-spacing: 5px;
+		}
+		h2{
+			text-align: center;
+			width: 100%;
+			clear: both;
+			float: left;
+			display: block;
+			background: red;
 		}
